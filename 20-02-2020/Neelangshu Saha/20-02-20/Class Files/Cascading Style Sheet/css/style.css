@@ -1,0 +1,14 @@
+/* Cascading Style Sheet */
+
+h1 {
+	color: rgb(147, 107, 228);
+}
+
+ol {
+	background-color: hsla(0, 20%, 50%, 0.3);
+}
+/*
+li {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+*/

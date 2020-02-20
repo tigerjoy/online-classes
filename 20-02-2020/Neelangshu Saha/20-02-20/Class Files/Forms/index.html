@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Forms</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<h1>Create an account</h1>
+	<h3>It's quick and easy.</h3>
+	<form action="index.html" method="GET">
+		<fieldset>
+			<legend>Registration Form</legend>
+			<div>
+				<label class="mandatory" for="first-name">F<u>i</u>rst Name*</label>
+				<input id="first-name" type="text" 
+					name="first-name" size="15" 
+					placeholder="First name" accesskey="i">
+				<label class="mandatory" for="last-name"><u>L</u>ast Name*</label>
+				<input id="last-name" type="text" 
+					name="last-name" size="15" 
+					placeholder="Last name" accesskey="L">
+			</div>
+			<br>
+			<div>
+				<label class="mandatory" for="email">E<u>m</u>ail*</label>
+				<input id="email" type="text" 
+					name="email" size="15" 
+					placeholder="Email" accesskey="m">
+				<label class="mandatory" for="confirm-email"><u>C</u>onfirm Email*</label>
+				<input id="confirm-email" type="text" 
+					name="confirm-email" size="15" 
+					placeholder="Confirm Email" accesskey="c"
+					autocomplete="off">
+			</div>
+			<br>
+			<div>
+				<label class="mandatory" for="password">Pass<u>w</u>ord*</label>
+				<input id="password" type="password" 
+					name="password" size="15" 
+					placeholder="New password" accesskey="w">
+			</div>
+			<br>
+			<div>
+				<input type="submit" value="Submit" accesskey="s">
+				<input type="reset" value="Reset" accesskey="r">
+			</div>
+		</fieldset>
+	</form>
+	<hr>
+	<h1>Adding Video</h1>
+	<video src="video/Respaper Downloader.mp4" width="400" height="300"
+			controls autoplay loop> 
+	</video>
+</body>
+</html>
+
